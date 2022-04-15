@@ -14,7 +14,7 @@ var startTime; //Referens till när spelet startar
 // Initiering av globala variabler samt koppling av funktioner till knapparna.
 function init() {
 	startGameBtn = document.getElementById("startGameBtn");
-    startGameBtn.onclick = startGame;
+    startGameBtn.addEventListener("click", startGame);
     letterButtons = document.getElementById("letterButtons").getElementsByTagName("button");
     for(let i = 0; i < letterButtons.length; i++) {
         letterButtons[i].onclick = guessLetter;
