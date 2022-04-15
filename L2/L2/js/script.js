@@ -11,7 +11,7 @@ function init() {
     msgElem = document.getElementById("message");
     document.getElementById("btn1").onclick = showFruit;
     selFruitsElem = document.getElementById("selectedFruits");
-    selFruitsElem = 0;
+    selFruitNr = 0;
     document.getElementById("btn2").onclick = addFruits;
 } // End init
 window.onload = init; // Se till att init aktiveras då sidan är inladdad
@@ -93,7 +93,7 @@ function addFruits() {
         return;
     }
 
-    let fruitUrl = getUrl(selFruitsElem); //Bilden på den valda frukten
+    let fruitUrl = getUrl(selFruitNr); //Bilden på den valda frukten
     let imgList = ""; //Listan som vi kommer spara alla frukter
     for (let i = 0; i < amount; i++) {
         imgList += "<img src='" + fruitUrl + "' alt='frukt'>"
