@@ -93,7 +93,7 @@ function addFruits() {
         return;
     }
 
-    let fruitUrl = getUrl(selFruitNr); //Bilden på den valda frukten
+    let fruitUrl = getUrl(selFruitsElem); //Bilden på den valda frukten
     let imgList = ""; //Listan som vi kommer spara alla frukter
     for (let i = 0; i < amount; i++) {
         imgList += "<img src='" + fruitUrl + "' alt='frukt'>"
