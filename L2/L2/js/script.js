@@ -10,8 +10,8 @@ function init() {
     input2Elem = document.getElementById("input2");
     msgElem = document.getElementById("message");
     document.getElementById("btn1").onclick = showFruit;
-    selFruitElem = document.getElementById("selectedFruits");
-    selFruitElem = 0;
+    selFruitsElem = document.getElementById("selectedFruits");
+    selFruitsElem = 0;
     document.getElementById("btn2").onclick = addFruits;
 } // End init
 window.onload = init; // Se till att init aktiveras då sidan är inladdad
