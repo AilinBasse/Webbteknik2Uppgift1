@@ -1,6 +1,8 @@
 // Globala variabler
-var input1Elem, input2Elem, msgElem, selFruitsElem, selFruitNr; //inputElem1 & 2 används för att ge användaren en ruta att skriva in siffror som används i senare program
+var input1Elem, input2Elem, msgElem, selFruitsElem, selFruitNr; //input1Elem & input2Elem används för att ge användaren en ruta att skriva in siffror som används i senare program
 //msgElem används för att skicka felmeddelanden ifall användaren har skrivit med fel syntax i inputElem1 eller 2
+//selFruitsElem används för att visa alla frukter som användaren har valt
+//selFruitNr används för att visa vilken frukt som användaren valt
 
 // ------------------------------
 // Funktion som körs då hela webbsidan är inladdad, dvs då all HTML-kod är utförd.
