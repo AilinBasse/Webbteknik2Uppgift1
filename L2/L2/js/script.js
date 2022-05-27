@@ -22,7 +22,6 @@ window.onload = init; // Se till att init aktiveras då sidan är inladdad
 // i det första fältet
 function showFruit() {
     let nr = checkNr(input1Elem.value, 5) //Nummer som användaren skrev in
-    checkNr(nr);
     // Kollar så att numret är korrekt skrivet
     if (nr === null) {
         return;
